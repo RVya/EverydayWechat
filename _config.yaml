@@ -3,13 +3,13 @@
 #  http://einverne.github.io/post/2015/08/yaml.html
 
 # 定时时间
-alarm_timed: '19:50'
+alarm_timed: '19:51'
 
 # 格言渠道
 # 1 : ONE●一个
 # 2 : 词霸（每日英语，双语）
 # 3 : 土味情话
-dictum_channel: 3
+dictum_channel: 2
 
 girlfriend_infos:
   -
