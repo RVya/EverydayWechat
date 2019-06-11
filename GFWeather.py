@@ -106,7 +106,7 @@ class GFWeather:
         for _ in range(5):
             # 命令行显示登录二维码。
             if os.environ.get('MODE') == 'server':
-                itchat.auto_login(enableCmdQR=TRUE, hotReload=True)
+                itchat.auto_login(enableCmdQR=TRUE)
             else:
                 itchat.auto_login(hotReload=True)
             if _online():
