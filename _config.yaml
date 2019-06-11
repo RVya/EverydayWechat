@@ -3,7 +3,7 @@
 #  http://einverne.github.io/post/2015/08/yaml.html
 
 # 定时时间
-alarm_timed: '19:51'
+alarm_timed: '19:53'
 
 # 格言渠道
 # 1 : ONE●一个
@@ -20,7 +20,7 @@ girlfriend_infos:
     # 从那天开始勾搭的（可空）
     start_date: '2018-01-01'
     # 短句的最后留言（可空）
-    sweet_words: '            --来自爱你的我'
+    sweet_words: '                --来自爱你的我'
 
   #如果你有多个人需要发送，则参照这个样式，复制即可
   #如不需要，则删除或注解下面所有的数据
