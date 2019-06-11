@@ -1,9 +1,11 @@
 #!/usr/bin/python
 # -*- coding: utf-8 -*-
+
 """
 每天定时给多个女友发给微信暖心话
 核心代码。
 """
+import io
 import os
 import time
 from datetime import datetime
@@ -42,7 +44,7 @@ class GFWeather:
             3.int 分；
             4.int 格言渠道。（1: 'ONE●一个', 2: '词霸(每日英语)', 3: '土味情话'）
         """
-        with open('_config.yaml', 'r', encoding='utf-8') as file:
+        with io.open('_config.yaml', 'r', encoding='utf-8') as file:
             config = yaml.load(file, Loader=yaml.Loader)
 
         alarm_timed = config.get('alarm_timed').strip()
