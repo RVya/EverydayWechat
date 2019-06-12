@@ -124,10 +124,13 @@ class GFWeather:
         # 自动登录
         if not self.is_online(auto_login=True):
             return
+
         for girlfriend in self.girlfriend_list:
-	     wechat_name = girlfriend.get('wechat_name')
-             friends = itchat.search_friends(name=wechat_name)
-      	     if not friends:
+            wechat_name = girlfriend.get('wechat_name')
+            friends = itchat.search_friends(name=wechat_name)
+            print(friends)
+
+            if not friends:
                 print('昵称『{}』有误。'.format(wechat_name))
                 return
             name_uuid = friends[0].get('UserName')
