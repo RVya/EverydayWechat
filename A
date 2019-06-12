@@ -1,0 +1,141 @@
+
+chdir(/etc)
+fchdir() to previous dir
+sourcing "/etc/vimrc"
+chdir(/usr/share/vim/vim74/syntax)
+fchdir() to previous dir
+line 50: sourcing "/usr/share/vim/vim74/syntax/syntax.vim"
+Searching for "syntax/synload.vim" in "/root/.vim,/usr/share/vim/vimfiles,/usr/share/vim/vim74,/usr/share/vim/vimfiles/after,/root/.vim/after"
+Searching for "/root/.vim/syntax/synload.vim"
+Searching for "/usr/share/vim/vimfiles/syntax/synload.vim"
+Searching for "/usr/share/vim/vim74/syntax/synload.vim"
+chdir(/usr/share/vim/vim74/syntax)
+fchdir() to previous dir
+line 19: sourcing "/usr/share/vim/vim74/syntax/synload.vim"
+Searching for "syntax/syncolor.vim" in "/root/.vim,/usr/share/vim/vimfiles,/usr/share/vim/vim74,/usr/share/vim/vimfiles/after,/root/.vim/after"
+Searching for "/root/.vim/syntax/syncolor.vim"
+Searching for "/usr/share/vim/vimfiles/syntax/syncolor.vim"
+Searching for "/usr/share/vim/vim74/syntax/syncolor.vim"
+chdir(/usr/share/vim/vim74/syntax)
+fchdir() to previous dir
+line 21: sourcing "/usr/share/vim/vim74/syntax/syncolor.vim"
+finished sourcing /usr/share/vim/vim74/syntax/syncolor.vim
+continuing in /usr/share/vim/vim74/syntax/synload.vim
+Searching for "/usr/share/vim/vimfiles/after/syntax/syncolor.vim"
+Searching for "/root/.vim/after/syntax/syncolor.vim"
+finished sourcing /usr/share/vim/vim74/syntax/synload.vim
+continuing in /usr/share/vim/vim74/syntax/syntax.vim
+Searching for "filetype.vim" in "/root/.vim,/usr/share/vim/vimfiles,/usr/share/vim/vim74,/usr/share/vim/vimfiles/after,/root/.vim/after"
+Searching for "/root/.vim/filetype.vim"
+Searching for "/usr/share/vim/vimfiles/filetype.vim"
+Searching for "/usr/share/vim/vim74/filetype.vim"
+chdir(/usr/share/vim/vim74)
+fchdir() to previous dir
+line 25: sourcing "/usr/share/vim/vim74/filetype.vim"
+Searching for "ftdetect/*.vim" in "/root/.vim,/usr/share/vim/vimfiles,/usr/share/vim/vim74,/usr/share/vim/vimfiles/after,/root/.vim/after"
+Searching for "/root/.vim/ftdetect/*.vim"
+Searching for "/usr/share/vim/vimfiles/ftdetect/*.vim"
+chdir(/usr/share/vim/vimfiles/ftdetect)
+fchdir() to previous dir
+line 2638: sourcing "/usr/share/vim/vimfiles/ftdetect/nginx.vim"
+finished sourcing /usr/share/vim/vimfiles/ftdetect/nginx.vim
+continuing in /usr/share/vim/vim74/filetype.vim
+Searching for "/usr/share/vim/vim74/ftdetect/*.vim"
+Searching for "/usr/share/vim/vimfiles/after/ftdetect/*.vim"
+Searching for "/root/.vim/after/ftdetect/*.vim"
+finished sourcing /usr/share/vim/vim74/filetype.vim
+continuing in /usr/share/vim/vim74/syntax/syntax.vim
+Searching for "/usr/share/vim/vimfiles/after/filetype.vim"
+Searching for "/root/.vim/after/filetype.vim"
+finished sourcing /usr/share/vim/vim74/syntax/syntax.vim
+continuing in /etc/vimrc
+Searching for "filetype.vim" in "/root/.vim,/usr/share/vim/vimfiles,/usr/share/vim/vim74,/usr/share/vim/vimfiles/after,/root/.vim/after"
+Searching for "/root/.vim/filetype.vim"
+Searching for "/usr/share/vim/vimfiles/filetype.vim"
+Searching for "/usr/share/vim/vim74/filetype.vim"
+chdir(/usr/share/vim/vim74)
+fchdir() to previous dir
+line 54: sourcing "/usr/share/vim/vim74/filetype.vim"
+finished sourcing /usr/share/vim/vim74/filetype.vim
+continuing in /etc/vimrc
+Searching for "/usr/share/vim/vimfiles/after/filetype.vim"
+Searching for "/root/.vim/after/filetype.vim"
+Searching for "ftplugin.vim" in "/root/.vim,/usr/share/vim/vimfiles,/usr/share/vim/vim74,/usr/share/vim/vimfiles/after,/root/.vim/after"
+Searching for "/root/.vim/ftplugin.vim"
+Searching for "/usr/share/vim/vimfiles/ftplugin.vim"
+Searching for "/usr/share/vim/vim74/ftplugin.vim"
+chdir(/usr/share/vim/vim74)
+fchdir() to previous dir
+line 54: sourcing "/usr/share/vim/vim74/ftplugin.vim"
+finished sourcing /usr/share/vim/vim74/ftplugin.vim
+continuing in /etc/vimrc
+Searching for "/usr/share/vim/vimfiles/after/ftplugin.vim"
+Searching for "/root/.vim/after/ftplugin.vim"
+finished sourcing /etc/vimrc
+chdir(/root)
+fchdir() to previous dir
+could not source "$HOME/.vimrc"
+chdir(/root/.vim)
+fchdir() to previous dir
+could not source "~/.vim/vimrc"
+chdir(/root)
+fchdir() to previous dir
+could not source "$HOME/.exrc"
+Searching for "plugin/**/*.vim" in "/root/.vim,/usr/share/vim/vimfiles,/usr/share/vim/vim74,/usr/share/vim/vimfiles/after,/root/.vim/after"
+Searching for "/root/.vim/plugin/**/*.vim"
+Searching for "/usr/share/vim/vimfiles/plugin/**/*.vim"
+Searching for "/usr/share/vim/vim74/plugin/**/*.vim"
+chdir(/usr/share/vim/vim74/plugin)
+fchdir() to previous dir
+sourcing "/usr/share/vim/vim74/plugin/getscriptPlugin.vim"
+finished sourcing /usr/share/vim/vim74/plugin/getscriptPlugin.vim
+chdir(/usr/share/vim/vim74/plugin)
+fchdir() to previous dir
+sourcing "/usr/share/vim/vim74/plugin/gzip.vim"
+finished sourcing /usr/share/vim/vim74/plugin/gzip.vim
+chdir(/usr/share/vim/vim74/plugin)
+fchdir() to previous dir
+sourcing "/usr/share/vim/vim74/plugin/matchparen.vim"
+finished sourcing /usr/share/vim/vim74/plugin/matchparen.vim
+chdir(/usr/share/vim/vim74/plugin)
+fchdir() to previous dir
+sourcing "/usr/share/vim/vim74/plugin/netrwPlugin.vim"
+finished sourcing /usr/share/vim/vim74/plugin/netrwPlugin.vim
+chdir(/usr/share/vim/vim74/plugin)
+fchdir() to previous dir
+sourcing "/usr/share/vim/vim74/plugin/rrhelper.vim"
+finished sourcing /usr/share/vim/vim74/plugin/rrhelper.vim
+chdir(/usr/share/vim/vim74/plugin)
+fchdir() to previous dir
+sourcing "/usr/share/vim/vim74/plugin/spellfile.vim"
+finished sourcing /usr/share/vim/vim74/plugin/spellfile.vim
+chdir(/usr/share/vim/vim74/plugin)
+fchdir() to previous dir
+sourcing "/usr/share/vim/vim74/plugin/tarPlugin.vim"
+finished sourcing /usr/share/vim/vim74/plugin/tarPlugin.vim
+chdir(/usr/share/vim/vim74/plugin)
+fchdir() to previous dir
+sourcing "/usr/share/vim/vim74/plugin/tohtml.vim"
+finished sourcing /usr/share/vim/vim74/plugin/tohtml.vim
+chdir(/usr/share/vim/vim74/plugin)
+fchdir() to previous dir
+sourcing "/usr/share/vim/vim74/plugin/vimballPlugin.vim"
+finished sourcing /usr/share/vim/vim74/plugin/vimballPlugin.vim
+chdir(/usr/share/vim/vim74/plugin)
+fchdir() to previous dir
+sourcing "/usr/share/vim/vim74/plugin/zipPlugin.vim"
+finished sourcing /usr/share/vim/vim74/plugin/zipPlugin.vim
+Searching for "/usr/share/vim/vimfiles/after/plugin/**/*.vim"
+Searching for "/root/.vim/after/plugin/**/*.vim"
+Reading viminfo file "/root/.viminfo" info oldfiles
+Executing BufEnter Auto commands for "*"
+autocommand sil! call s:LocalBrowse(expand("<amatch>"))
+
+Executing VimEnter Auto commands for "*"
+autocommand sil! call s:VimEnter(expand("<amatch>"))
+
+Executing CursorMoved Auto commands for "*"
+autocommand call s:Highlight_Matching_Pair()
+
+
+Writing viminfo file "/root/.viminfo"
