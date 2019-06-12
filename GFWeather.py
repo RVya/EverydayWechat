@@ -108,7 +108,7 @@ class GFWeather:
             if os.environ.get('MODE') == 'server':
                 itchat.auto_login(enableCmdQR=True, hotReload=True)
             else:
-                itchat.auto_login(enableCmdQR=True,hotReload=True)
+                itchat.auto_login(enableCmdQR=2,hotReload=True)
             if _online():
                 print('登录成功')
                 return True
@@ -125,9 +125,9 @@ class GFWeather:
         if not self.is_online(auto_login=True):
             return
         for girlfriend in self.girlfriend_list:
-            wechat_name = girlfriend.get('wechat_name')
-            friends = itchat.search_friends(name=wechat_name)
-            if not friends:
+	     wechat_name = girlfriend.get('wechat_name')
+             friends = itchat.search_friends(name=wechat_name)
+      	     if not friends:
                 print('昵称『{}』有误。'.format(wechat_name))
                 return
             name_uuid = friends[0].get('UserName')
